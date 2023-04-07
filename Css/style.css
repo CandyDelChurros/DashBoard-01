@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Oxanium', 'Poppins', sans-serif ;
-    text-decoration: none; 
+    text-decoration: none;
 }
 html{
     font-size: 62.5%;
@@ -614,6 +614,7 @@ html{
     left: 18.5rem;
     font-size: 1.2rem;
 }
+/*Não consegui mexer nessa parte para usar o nth*/
 .photo {
     border-radius: 100%;
     width: 2.2rem;
