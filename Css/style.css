@@ -775,29 +775,17 @@ html{
     border-radius: 100%;
     width: 2.2rem;
     height: 2.2rem;
-    background-image: url(../img/icon5.png);
-    background-size: cover;
-    position: relative;
-}
-.icon-friends1{
-    margin-left: 4.4rem;
-    margin-right: 4rem;
-    border-radius: 100%;
-    width: 2.2rem;
-    height: 2.2rem;
-    background-image: url(../img/icon2.jpg);
-    background-size: cover;
-    position: relative;
-}
-.icon-friends2{
-    margin-left: 4.4rem;
-    margin-right: 4rem;
-    border-radius: 100%;
-    width: 2.2rem;
-    height: 2.2rem;
     background-image: url(../img/icon1.jpg);
     background-size: cover;
     position: relative;
+}
+.friends1:nth-child(2) .icon-friends{
+    background-image: url(../img/icon5.png);
+    background-size: cover;
+}
+.friends1:nth-child(3) .icon-friends{
+    background-image: url(../img/icon2.jpg);
+    background-size: cover;
 }
 .info-files {
     position: absolute;
